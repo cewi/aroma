@@ -30,7 +30,7 @@ class ConfigurationsTable extends AbstractConfigurationsTable
             ->add('namespace', 'valid-namespace', ['rule' => ['custom', '@[a-z0-9\\\.]+@']])
 
             ->requirePresence('path')
-            ->notEmpty('path')
+            ->notEmptyString('path')
 
             ->requirePresence('value');
 
