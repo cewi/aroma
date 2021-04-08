@@ -24,7 +24,7 @@ bin/cake plugin load Gourmet/Aroma
 or by manually adding statement shown below to `bootstrap.php`:
 
 ```php
-Plugin::load('Gourmet/Aroma');
+$this->addPlugin('Gourmet/Aroma');
 ```
 
 ## Usage
