@@ -5,14 +5,14 @@
 [![Total Downloads](https://poser.pugx.org/gourmet/aroma/downloads.svg)](https://packagist.org/packages/gourmet/aroma)
 [![License](https://poser.pugx.org/gourmet/aroma/license.svg)](https://packagist.org/packages/gourmet/aroma)
 
-DB-based configuration for [CakePHP 3][cakephp].
+DB-based configuration for [CakePHP 4][cakephp].
 
 ## Install
 
 Using [Composer][composer]:
 
 ```
-composer require gourmet/aroma:^1.0.x-dev
+composer require gourmet/aroma:^cake4-dev
 ```
 
 You then need to load the plugin. You can use the shell command:
