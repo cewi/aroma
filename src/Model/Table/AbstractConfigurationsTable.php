@@ -1,4 +1,6 @@
 <?php
+declare(strict_types=1);
+
 namespace Gourmet\Aroma\Model\Table;
 
 use Cake\ORM\Query;
@@ -14,7 +16,7 @@ abstract class AbstractConfigurationsTable extends Table implements Configuratio
      * @param array $options Options.
      * @return \Cake\ORM\Query
      */
-    public function findKv(Query $query, array $options)
+    public function findKv(Query $query, array $options): Query
     {
         return $query
             ->find('list', [
