@@ -21,7 +21,7 @@ You then need to load the plugin. You can use the shell command:
 bin/cake plugin load Gourmet/Aroma
 ```
 
-or by manually adding statement shown below to `bootstrap.php`:
+or by manually adding statement shown below in your application’s bootstrap method:
 
 ```php
 $this->addPlugin('Gourmet/Aroma');
