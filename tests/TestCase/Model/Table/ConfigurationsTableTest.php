@@ -43,6 +43,6 @@ class ConfigurationsTableTest extends TestCase
             'value' => 'thing',
         ]);
         $this->Configurations->save($entity);
-        $this->assertEquals($entity->errors(), []);
+        $this->assertEquals($entity->getErrors(), []);
     }
 }
